@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import ProfilePage from '../pages/ProfilePage.vue'
-import LoginPage from '../pages/LoginPage.vue'
-import MembersPage from '../pages/MembersPage.vue'
-import AttendancePage from '../pages/AttendancePage.vue'
-import StatsPage from '../pages/StatsPage.vue'
+import ProfilePage from '../components/ProfilePage.vue'
+import LoginPage from '../components/LoginPage.vue'
+import MembersPage from '../components/MembersPage.vue'
+import AttendancePage from '../components/AttendancePage.vue'
+import StatsPage from '../components/StatsPage.vue'
 
 const routes = [
   { path: '/', redirect: '/login' },
